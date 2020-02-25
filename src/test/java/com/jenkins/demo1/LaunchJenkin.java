@@ -14,6 +14,7 @@ public class LaunchJenkin
 		
 		String title= driver.getTitle();
 		System.out.println("Title : "+title);
+		System.out.println("this is "+title+" page");
 		driver.close();
 	}
 }
